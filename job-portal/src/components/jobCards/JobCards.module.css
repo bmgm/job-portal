@@ -1,0 +1,53 @@
+.cards {
+  /* outline: auto; */
+  /* width: 80%; */
+  padding: 12px 24px;
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading,
+.filters,
+.tags {
+  display: flex;
+  gap: 8px;
+}
+
+.filters,
+.tags {
+  font-size: 14px;
+  margin-top: 12px;
+  /* color: grey; */
+}
+
+.tags > p {
+  border: 1px solid rgb(131, 131, 131);
+  border-radius: 4px;
+  padding: 4px 8px;
+  color: grey;
+}
+
+.right p {
+  font-size: 14px;
+  color: grey;
+}
+
+.right button {
+  margin-top: 12px;
+  padding: 8px 24px;
+  border: 1px solid dodgerblue;
+  color: dodgerblue;
+  background-color: white;
+  border-radius: 4px;
+  transition: all 0.5s;
+  font-weight: bold;
+}
+
+.right button:hover {
+  color: white;
+  background-color: dodgerblue;
+}
